@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section1 {
+    position: relative;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(198, 128, 128); */
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(webimg1.jpeg);
+
+  background-blend-mode: darken;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 0 0 5%;
+  clip-path:polygon(0% 0%, 100% 0%, 100% 85%, 72% 100%, 0% 71%)
+
+}
+header {
+  width: 100%;
+  height: 10vh;
+  padding: 0 2%;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* background-color: brown; */
+}
+.logo {
+  font-size: 40px;
+  width: 50%;
+  padding: 0% 5%;
+  color:  #ff6000;;
+}
+header nav {
+  /* align-items: center; */
+  width: 50%;
+}
+header nav ul {
+  padding: 0 5%;
+  gap: 0 5vw;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+header nav ul li {
+  list-style-type: none;
+  text-decoration: none;
+
+}
+header nav ul :hover{
+  color:#ff6000;
+}
+
+.content{
+  width: 100%;
+  padding:0  10%;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content:center;
+gap: 5vh;
+
+}
+
+
+.title{
+  font-size: 60px;
+  opacity: 1;
+
+font-family: 'Roboto Mono', monospace;
+
+}
+
+.button{
+  border-style: none;
+}
+.button button{
+  /* border-radius: 5px; */
+  background-color:  #ff6000;
+  width: 22vw;
+  height: 10vh;
+  font-size: 30px;
+}
+.section2{
+    /* background-image: url(layered-waves-haikei\ \(3\).svg);
+    height: 110vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover
+    ; */
+    /* border: 5px solid red; */
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 65vh;
+    left: 0;
+    background-image: url(white.png);
+/* background-color: rgba(0,0,0,0.8); */
+opacity: 0.5;
+display: flex;
+justify-content: center;
+/* padding: 2% 5%; */
+
+clip-path: polygon(45% 10%, 82% 47%, 141% 0, 100% 100%, 0 100%, 0 15%)
+
+
+
+/* background-blend-mode: darken; */
+
+
+}
+.section3{
+  position:relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+}
+.left{
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  gap: 5vh 0;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center
+  ;
+  text-align: center;
+
+}
+
+.imgL1 {
+  background-image: url(pexel\ \(1\).jpg);
+background-size: cover;
+background-position: center;
+width: 30vw;
+height: 40vh;
+}
+.imgL2 {
+  background-image: url(pexell\ \(2\).jpg);
+  background-size: cover;
+  background-position: center;
+width: 30vw;
+height: 40vh;
+}
+.imgR1{
+  background-image: url(pexelll\ \(3\).jpg);
+  background-size: cover;
+  background-position: center;
+width: 30vw;
+height: 40vh;
+}
+.imgR2 {
+  background-image: url(pexellll\ \(4\).jpg);
+  background-size: cover;
+  background-position: center;
+width: 30vw;
+height: 40vh;
+}
+.right{
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  gap: 5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.section4{
+  
+  height: auto;
+  width: 100%;
+  padding: 10% ;
+}
+.section4-content{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+
+}
+
+.section4-content h1{
+  font-size: 100px;
+}
+.section4-content p{
+  opacity: .78;
+  font-size: 30px;
+}
+.section4-content h2{
+  font-size: 30px;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+.section5{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center
+  ;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  opacity: 1.5;
+  padding: 5%;
+}
+
+.section6{
+color: white;
+  width: 100%;
+  height: auto;
+  /* padding: 7% 10% ; */
+  display: flex;
+  background-color: rgb(29, 49, 56);
+  justify-content: center,
+  
+}
+.section6 .icon{
+width: 10%;
+display: flex;
+/* justify-content:end; */
+align-items: center;
+
+display: flex;
+justify-content: center;
+height: 35vh;
+/* text-align:end; */
+/* align-items: flex-end; */
+
+}
+.section6 .icon svg{
+  fill: white;
+}
+.section6-content{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 3vh;
+  height: 35vh;
+  padding: 0% 5%;
+}
+.section6-content h1{
+  font-size: 40px;
+}
+
+.section6-content p{
+  font-size: 25px;
+  opacity: .9;
+}
+.section6-content h2{
+  opacity: .8;
+}
+.section7{
+color: white;
+  width: 100%;
+  height: auto;
+  /* padding: 7% 10% ; */
+  justify-content: center;
+  display: flex;
+  background-color: rgb(205 198 113);
+  /* justify-content: center, */
+  
+}
+.section7 .icon{
+width: 10%;
+height: 35vh;
+display: flex;
+/* justify-content:end; */
+justify-content: center;
+/* text-align:end; */
+/* align-items: flex-end; */
+
+}
+.section7 .icon svg{
+  fill: white;
+}
+.section7-content{
+  width: 90%;
+height: 35vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  justify-content: center;
+  padding: 0% 5%;
+}
+.section7-content h1{
+  font-size: 40px;
+}
+
+.section7-content p{
+  font-size: 25px;
+  opacity: .9;
+}
+.section7-content h2{
+  opacity: .8;
+}
+.section8{
+color: white;
+  width: 100%;
+  height: auto;
+  /* padding: 7% 10% ; */
+  display: flex;
+  background-color:#ff6000;
+  justify-content: center,
+  
+}
+.section8 .icon{
+width: 10%;
+display: flex;
+height: 35vh;
+justify-content:center;
+
+/* text-align:end; */
+/* align-items: flex-end; */
+
+}
+.section8 .icon svg{
+  fill: white;
+}
+.section8-content{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  height: 35vh;
+  padding: 0% 5%;
+}
+.section8-content h1{
+  font-size: 40px;
+}
+
+.section8-content p{
+  font-size: 25px;
+  opacity: .9;
+}
+.section8-content h2{
+  opacity: .8;
+}
+
+.section9{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center
+  ;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  opacity: 1.5;
+  padding: 5%;
+}
+.section9 .button button{
+  background-color:  rgb(29, 49, 56);;
+  color: white;
+  width: 22vw;
+  height: 10vh;
+  font-size: 30px; 
+}
+
+.section10{
+  height: auto;
+  padding: 5% 10%;
+ 
+}
+.section10 .content{
+  width: 100%;
+  /* padding:0  10%; */
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content:center;
+gap: 5vh;
+
+}
+
+.section10 .content .heading h1{
+  font-size: 70px;
+}
+
+.section10 .title{
+  font-size: 60px;
+  opacity: 1;
+
+font-family: 'Roboto Mono', monospace;
+
+}
+
+.section10  .button{
+  border-style: none;
+  
+  
+
+}
+.section10 .button button{
+  /* border-radius: 5px; */
+  background-color:  #ff6000;
+  width: 22vw;
+  height: 10vh;
+  font-size: 30px;
+}
+
+footer{
+  height: auto;
+  width: 100%;
+  background-image: url(wave-haikeii.jpg);
+  background-size: cover;
+  background-position:center;
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+.footer1{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  gap: 2vh;
+}
